@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "functions": { "api/index.js": { "includeFiles": ["*_mcq.txt"] } },
+  "functions": { "api/index.js": { "includeFiles": "*_mcq.txt" } },
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/index.js" },
     { "src": "/(.*)", "dest": "/public/$1" }
